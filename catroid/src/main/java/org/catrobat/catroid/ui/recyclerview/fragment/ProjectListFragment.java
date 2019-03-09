@@ -270,7 +270,8 @@ public class ProjectListFragment extends RecyclerViewFragment<ProjectData> imple
 				getString(R.string.rename),
 				getString(R.string.show_details),
 				getString(R.string.upload_button),
-				getString(R.string.save_to_external_storage_button)
+				getString(R.string.save_to_external_storage_button),
+				String.format(getString(R.string.merge_with_first_project_button), getItemList().get(0).projectName)
 		};
 		new AlertDialog.Builder(getContext())
 				.setTitle(item.projectName)

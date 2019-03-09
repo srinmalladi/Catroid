@@ -890,6 +890,7 @@
     <string name="upload_tag_dialog_title">Please choose up to three categories</string>
 
     <!-- Save Project to External Storage -->
+    <string name="merge_with_first_project_button">Merge with \"%1$s\"</string>
     <string name="save_to_external_storage_button">Save project to external storage</string>
     <string name="notification_save_project_to_external_storage_title_pending">" "</string>
     <string name="notification_save_project_to_external_storage_pending">Saving project to external storage.</string>
